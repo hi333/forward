@@ -1,11 +1,11 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="expansion_servopower" id="82" x="179" y="6">
+  <block type="expansion_servopower" id="100" x="105" y="20">
     <field name="SERVO">ON</field>
     <next>
-      <block type="expansion_exp1power" id="76">
+      <block type="expansion_exp1power" id="94">
         <field name="SERVO">ON</field>
         <next>
-          <block type="expansion_exp2power" id="70">
+          <block type="expansion_exp2power" id="88">
             <field name="SERVO">ON</field>
             <next>
               <block type="movement_forward" id="53">
