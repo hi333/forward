@@ -1,17 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="expansion_exp1power" id="94" x="100" y="71">
-    <field name="SERVO">ON</field>
+  <block type="movement_forward" id="53" x="117" y="225">
     <next>
-      <block type="movement_forward" id="53">
-        <next>
-          <block type="robot_delay" id="55" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="64">
-                <field name="NUM">3000</field>
-              </block>
-            </value>
+      <block type="robot_delay" id="55" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="64">
+            <field name="NUM">300</field>
           </block>
-        </next>
+        </value>
       </block>
     </next>
   </block>
